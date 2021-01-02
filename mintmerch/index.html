@@ -1,0 +1,140 @@
+<!DOCTYPE html> <!--HTML 5-->
+<html lang="en"> <!--Language-->
+<head>
+    <meta charset="utf-8"> <!--Encoding-->
+    <title>Mint Merch</title> <!--Title-->
+    <meta name="description" content=""> <!--Description-->
+    <meta name="author" content=""> <!--Author Name-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Rendering-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> <!--Font-->
+    <link rel="stylesheet" href="css/normalize.css"> <!--Rendering-->
+    <link rel="stylesheet" href="css/main.css"> <!--Styles-->
+    <link rel="icon" type="image/png" href="images/favicon.ico"> <!--Favicon-->
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+  <!--Navigation Menu-->
+  <div id="toggled">
+    <a href="javascript:void(0)" id="close">
+      <i class="ion-close"></i>
+    </a>
+    <div id="menu-wrapper">
+      <h1>MENU</h1>
+      <a href="index.html">SHOP</a><br>
+      <a href="about.html">INFORMATION</a><br>
+      <a href="contact.html">CONTACT US</a><br>
+      <a href="donate.html">DONATIONS</a><br>
+    </div>
+  </div>
+  <a id="cartlink" href="#"><div id="cartbutton"><br><i style="font-size: 30px; vertical-align: middle;"class="ion-bag"></i></div></a>
+  <header>
+    <div id="top" style="font-weight : 100;">Welcome to Mint Merch!&emsp;<i class="ion-ios-telephone"></i>&nbsp;&nbsp;+1 (123)-456-7890&emsp;<i class="ion-location"></i>&nbsp;&nbsp;4801 N 22nd St, Tampa, FL 33610</div>
+       <nav>
+         <ul>
+           <li><a href="javascript:void(0)" id="menu"><i class="ion-navicon-round"></i></a></li>
+           <li class="hide"><a id="active" href="index.html"><i style="margin-right: 10px;" class="ion-bag"></i>Shop</a></li>
+           <li class="hide"><a href="about.html"><i style="margin-right: 10px;" class="ion-ios-information-outline"></i>Information</a></li>
+           <li class="logo"><img style="width: 150px;" src="images/xiaboo.png"/></li>
+           <li class="hide"><a href="contact.html"><i style="margin-right: 10px;" class="ion-paper-airplane"></i>Contact Us</a></li>
+           <li class="hide"><a href="donate.html"><i style="margin-right: 10px;" class="ion-social-usd-outline"></i>Donations</a></li>
+         </ul>
+       </nav>
+
+       <div id="popup">
+         <p>Welcome to Mint Merch - a district-winning submission 100% hand-coded by Nipuna Weerapperuma for the Future Business Leaders of America (FBLA) E-Business competition in 2017. The corresponding prompt can be found <a href="topics.pdf">here</a> on page 78. Please note that product array, shopping cart, and slider/carousel functionality have been disabled for demo purposes.</p>
+         <i class="ion-close" onclick="myFunction()"></i>
+       </div>
+       <div style="max-width: 1920px;" id="slideshow">
+             <img class="xiaboo">
+       </div>
+       <div id="divider"></div>
+       <ul id="grid">
+         <li>
+             <a class="grid-cell" href="#">
+                 <img class="grid-img" src="images/backpack.jpg" />
+                 <span class="grid-overlay"></span>
+                 <span class="grid-text">BLACK BACKPACK</span>
+                 <span style="padding: 5px" href="#" class="grid-button">QUICK ADD - $49</span>
+             </a>
+         </li>
+         <li>
+             <a class="grid-cell" href="#">
+                 <img class="grid-img" src="images/totebag.jpg" />
+                 <span class="grid-overlay"></span>
+                 <span class="grid-text">RED TOTE BAG</span>
+                 <span style="padding: 5px" href="#" class="grid-button">QUICK ADD - $34</span>
+             </a>
+         </li>
+         <li>
+             <a class="grid-cell" href="#">
+                 <img class="grid-img" src="images/doppkit.jpg" />
+                 <span class="grid-overlay"></span>
+                 <span class="grid-text">BLUE DOPP KIT</span>
+                 <span style="padding: 5px" href="#" class="grid-button">QUICK ADD - $29</span>
+             </a>
+         </li>
+
+         <li>
+             <a class="grid-cell" href="#">
+                 <img class="grid-img" src="images/sunglasses.jpg" />
+                 <span class="grid-overlay"></span>
+                 <span class="grid-text">CLASSY SUNGLASSES</span>
+                 <span style="padding: 5px" href="#" class="grid-button">QUICK ADD - $14</span>
+             </a>
+         </li>
+         <li>
+           <a class="grid-cell" href="#">
+               <img class="grid-img" src="images/hat.jpg" />
+               <span class="grid-overlay"></span>
+               <span class="grid-text">DAINTY HAT</span>
+               <span style="padding: 5px" href="#" class="grid-button">QUICK ADD - $29</span>
+           </a>
+       </li>
+         <li>
+           <li>
+               <a class="grid-cell" href="#">
+                   <img class="grid-img" src="images/pouch.jpg" />
+                   <span class="grid-overlay"></span>
+                   <span class="grid-text">PERSONAL POUCH</span>
+                   <span style="padding: 5px" href="#" class="grid-button">QUICK ADD - $24</span>
+               </a>
+           </li>
+
+       <li>
+           <a class="grid-cell" href="#">
+               <img class="grid-img" src="images/wallet.jpg" />
+               <span class="grid-overlay"></span>
+               <span class="grid-text">LEATHER WALLET</span>
+               <span style="padding: 5px" href="#" class="grid-button">QUICK ADD - $19</span>
+           </a>
+       </li>
+       <li>
+         <a class="grid-cell" href="#">
+             <img class="grid-img" src="images/watch.jpg" />
+             <span class="grid-overlay"></span>
+             <span class="grid-text">CLEAN WATCH</span>
+             <span style="padding: 5px" href="#" class="grid-button">QUICK ADD - $44</span>
+         </a>
+     </li>
+       <li>
+         <a class="grid-cell" href="#">
+             <img class="grid-img" src="images/scarf.jpg" />
+             <span class="grid-overlay"></span>
+             <span class="grid-text">COTTON SCARF</span>
+             <span style="padding: 5px" href="#" class="grid-button">QUICK ADD - $19</span>
+         </a>
+     </li>
+       </ul>
+<div id="container">
+   <div id="header"></div>
+   <div id="body"></div>
+   <footer>2017 MIDDLETON FBLA &copy; | NO TEMPLATES USED <br> <a href="citations.pdf"><i style="margin-right: 10px;" class="ion-document-text"></i>WORKS CONSULTED</a></footer>
+</div>
+</header>
+<style>
+   @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+</style>
+<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
