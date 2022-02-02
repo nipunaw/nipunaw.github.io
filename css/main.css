@@ -57,14 +57,14 @@ ion-icon {
 }
 
 /*Selector Styles*/
-#button {
+.button {
   border: 0.5px solid #74b9ff;
   padding: 7px 15px;
   text-transform: uppercase;
   margin: 3px;
 }
 
-#button:hover {
+.button:hover {
   background-color: #74b9ff;
   color: white;
 }
